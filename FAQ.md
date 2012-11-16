@@ -42,5 +42,12 @@ Can I contribute?
 -----------------
 
 First question: Do you love otters? Really?
+
 Ok, now, buy us some beers. And we'll talk about this.
+
 And, of course, if you're.... Ahem. Well, we can maybe do something for you.
+
+I'm native English speaker and I don't understand your FAQ! Is this normal?
+---------------------------------------------------------------------------
+
+Yup. We're French with some kind of deviant ethylic sense of humour. But, if you've read so far, you should consult some specialist of mental illness.
