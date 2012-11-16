@@ -8,4 +8,4 @@ License
 It is licensed under the [BEER-WARE][1] License
 
 
-[1]: https://en.wikipedia.org/wiki/Beerware
+[1]: http://people.freebsd.org/~phk/
