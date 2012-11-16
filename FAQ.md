@@ -38,6 +38,21 @@ Where's the code? Show us the code!
 
 Be patient Luke.
 
+Hey ! I need credentials to access the website!
+-----------------------------------------------
+
+Do we know you? Who are you? What are you? Do you come in peace?
+
+Your website is just a piece of crap!
+-------------------------------------
+
+Well. We're not really webdesigners. And we have some weird taste. You don't like it. Ok, you're free to go.
+
+Your code is "dirty"!
+---------------------
+
+That's you're point of view. But, you can help us to improve it. We can refuse or accept your contribution. Beers help us to accept.
+
 Can I contribute?
 -----------------
 
@@ -46,6 +61,13 @@ First question: Do you love otters? Really?
 Ok, now, buy us some beers. And we'll talk about this.
 
 And, of course, if you're.... Ahem. Well, we can maybe do something for you.
+
+I wanna be an otter!
+--------------------
+
+Spice girls are prohibited (unless you're one of them)
+
+But, if you know the real meaning of otter, maybe you're already one! And if you wanna be one, just contact us!
 
 I'm native English speaker and I don't understand your FAQ! Is this normal?
 ---------------------------------------------------------------------------
