@@ -14,7 +14,7 @@ Yeah, we already know that. But, hold on, in github, there's "Teub". If you don'
 Why a BeerWare licence?
 -----------------------
 
-Buy us a beer. We'll explain to you. We'e not sure it'll be cristal clear, but, let's give it a try.
+Buy us a beer. We'll explain to you. We're not sure it'll be cristal clear, but, let's give it a try.
 
 Where the beer-root comes from?
 -------------------------------
@@ -37,3 +37,10 @@ Where's the code? Show us the code!
 -----------------------------------
 
 Be patient Luke.
+
+Can I contribute?
+-----------------
+
+First question: Do you love otters? Really?
+Ok, now, buy us some beers. And we'll talk about this.
+And, of course, if you're.... Ahem. Well, we can maybe do something for you.
