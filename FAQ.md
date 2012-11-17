@@ -69,6 +69,11 @@ Spice girls are prohibited (unless you're one of them)
 
 But, if you know the real meaning of otter, maybe you're already one! And if you wanna be one, just contact us!
 
+I've got an otter in my basement!
+---------------------------------
+
+Are you Austrian?
+
 I'm native English speaker and I don't understand your FAQ! Is this normal?
 ---------------------------------------------------------------------------
 
