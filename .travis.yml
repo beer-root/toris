@@ -1,2 +1,1 @@
 language: go
-scrit: go build src/toris.go
