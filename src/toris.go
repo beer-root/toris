@@ -4,7 +4,6 @@ package main
 import (
   "fmt"
   "log"
-  //  "net/http"
   "./toris"
   "code.google.com/p/couch-go"
   "code.google.com/p/goconf/conf"
@@ -12,7 +11,7 @@ import (
 )
 
 func main() {
-  c, err := conf.ReadConfigFile("./conf/toris.conf")
+  c, err := conf.ReadConfigFile("../conf/toris.conf")
   if err != nil {
     log.Fatal(err)
   }
