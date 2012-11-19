@@ -30,11 +30,14 @@ func main() {
     log.Fatal(err)
   }
 
-  // The REST controller
+  // The REST controllers
   otterController := new(toris.OtterAPIController)
   otterController.Db = db
+  goweb.MapRest("/otter", otterController)
 
-  goweb.MapRest("/api/", otterController)
+  leecherController := new(toris.LeecherAPIController)
+  leecherController.Db = db
+  goweb.MapRest("/leecher", leecherController)
 
   // Add default result formatter (JSON)
   goweb.ConfigureDefaultFormatters()
