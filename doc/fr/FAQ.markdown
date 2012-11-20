@@ -1,4 +1,4 @@
-What The FAQ???
+What The FAQ ???
 ================
 
 Pourquoi ce projet est-il appelé toris ?
@@ -9,7 +9,7 @@ Toris pourrait être un aconyme récursif pour "This Otter Rocks In Seamonkey". 
 Pourquoi hébergez-vous votre projet sur Github ? Ce n'est pas libre.
 --------------------------------------------------------------------
 
-Nous le savons très bien. Mais dan Github il y a aussi "Guy".[1]
+Nous le savons très bien. Mais dans Github il y a aussi "Guy". [1]
 
 
 Pour avoir choisi la licence BeerWare ?
@@ -31,8 +31,8 @@ Qui êtes-vous ?
 
 Bonne question. Vous avez quatre heures.
 
-Pourquoi avoir choisi le langage Go ? (Insérez votre langage préféré ici) ezst tellement mieux !
-------------------------------------------------------------------------------------------------
+Pourquoi avoir choisi le langage Go ? (Insérez votre langage préféré ici) est tellement mieux !
+-----------------------------------------------------------------------------------------------
 
 Parce que go no go. Une sombre histoire de singe.
 
@@ -75,7 +75,7 @@ Mais si vous connaissez le sens caché de la loutre, peut-être en êtes-vous d�
 J'ai une loutre dans ma cave !
 ------------------------------
 
-Êtes-vous Autrichien ?[2]
+Êtes-vous Autrichien ? [2]
 
 J'ai beau parler français, je ne comprends pas du tout de quoi vous parlez !
 ----------------------------------------------------------------------------
@@ -83,5 +83,6 @@ J'ai beau parler français, je ne comprends pas du tout de quoi vous parlez !
 Nous avons un sens de l'humour assez… Déviant dirons-nous. Mais si vous avez lu jusque là, vous devriez consulter. 
 
 
-[1] Nous déclinons toute relation de près ou de loin avec un acteur / crooner
+[1] Toute relation avec un acteur / crooner serait fortuite.
+
 [2] Avec tout le respect que nous devons aux Autrichiens.
