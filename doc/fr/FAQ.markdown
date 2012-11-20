@@ -4,7 +4,7 @@ What The FAQ ???
 Pourquoi ce projet est-il appelé toris ?
 ----------------------------------------
 
-Toris pourrait être un aconyme récursif pour "This Otter Rocks In Seamonkey". Ou pas. Nous n'en sommes pas très sûrs en fait.
+Toris pourrait être un aconyme récursif pour « This Otter Rocks In Seamonkey ». Ou pas. Nous n'en sommes pas très sûrs en fait.
 
 Pourquoi hébergez-vous votre projet sur Github ? Ce n'est pas libre.
 --------------------------------------------------------------------
@@ -15,7 +15,7 @@ Nous le savons très bien. Mais dans Github il y a aussi "Guy". [1]
 Pour avoir choisi la licence BeerWare ?
 ---------------------------------------
 
-Offrez-nous une bière et nous allons vous expliquer. 9a ne sera peut-être pas très clair mais essayons quand même.
+Offrez-nous une bière et nous allons vous expliquer. Ça ne sera peut-être pas très clair mais essayons quand même.
 
 D'où vient le projet beer-root ?
 --------------------------------
@@ -49,7 +49,7 @@ On se connait ? Qui êtes-vous ? Qu'êtes-vous ? Venez-vous en paix ?
 Votre site web, c'est de la merde !
 -----------------------------------
 
-Mouais. Nous ne sommes pas franchement des designers. Et nous avons des goûts bizarres en plus. Vous n'aimez pas ? On en vous retient pas.
+Mouais. Nous ne sommes pas franchement des designers. Et nous avons des goûts bizarres en plus. Vous n'aimez pas ? On ne vous retient pas.
 
 Votre code est « sale » !
 -------------------------
@@ -83,6 +83,9 @@ J'ai beau parler français, je ne comprends pas du tout de quoi vous parlez !
 Nous avons un sens de l'humour assez… Déviant dirons-nous. Mais si vous avez lu jusque là, vous devriez consulter. 
 
 
+
+
+
 [1] Toute relation avec un acteur / crooner serait fortuite.
 
-[2] Avec tout le respect que nous devons aux Autrichiens.
+[2] Avec tout le respect que nous devons à nos amis Autrichiens.
