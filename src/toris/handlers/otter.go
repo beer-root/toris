@@ -1,24 +1,12 @@
 package toris
 
 import (
-  "time"
+  . "../model"
   "net/http"
   "code.google.com/p/couch-go"
   "code.google.com/p/goweb/goweb"
 )
 
-
-// An Otter represents the image and its associated meta-data
-type Otter struct {
-  Path string
-  Tags []string
-  Date time.Time
-}
-
-// Create an empty Otter
-func NewOtter() Otter {
-  return Otter{Date: time.Now()}
-}
 
 // RESTful API Controller type for Otter
 type OtterAPIController struct {

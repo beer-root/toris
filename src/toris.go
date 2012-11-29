@@ -4,7 +4,7 @@ package main
 import (
   "fmt"
   "log"
-  "./toris"
+  . "./toris/handlers"
   "code.google.com/p/couch-go"
   "code.google.com/p/goconf/conf"
   "code.google.com/p/goweb/goweb"
@@ -31,11 +31,11 @@ func main() {
   }
 
   // The REST controllers
-  otterController := new(toris.OtterAPIController)
+  otterController := new(OtterAPIController)
   otterController.Db = db
   goweb.MapRest("/otter", otterController)
 
-  leecherController := new(toris.LeecherAPIController)
+  leecherController := new(LeecherAPIController)
   leecherController.Db = db
   goweb.MapRest("/leecher", leecherController)
 

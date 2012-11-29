@@ -1,17 +1,11 @@
 package toris
 
 import (
+  . "../model"
   "code.google.com/p/couch-go"
   "code.google.com/p/goweb/goweb"
 )
 
-
-// A Leccher represents a toris user
-type Leecher struct {
-  Username string
-  Mail string
-  Password string
-}
 
 // RESTful API Controller type for Leecher
 type LeecherAPIController struct {
