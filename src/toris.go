@@ -19,11 +19,13 @@ func main() {
   dbHost, _ := c.GetString("database", "host")
   dbPort, _ := c.GetInt("database", "port")
   dbName, _ := c.GetString("database", "name")
+  adminName, _ := c.GetString("database", "admin_name")
+  adminPwd, _ := c.GetString("database", "admin_password")
 
   serverPort, _ := c.GetInt("server", "port")
 
   // The CouchDB connection
-  dbUrl := fmt.Sprintf("http://%s:%d/%s", dbHost, dbPort, dbName)
+  dbUrl := fmt.Sprintf("http://%s:%s@%s:%d/%s", adminName, adminPwd, dbHost, dbPort, dbName)
   log.Println("Connecting to CouchDB: " + dbUrl)
   db, err := couch.NewDatabaseByURL(dbUrl)
   if err != nil {
