@@ -12,10 +12,16 @@ import (
 // the Toris context accessible from the modules
 var Context Toris
 
+var ShowModules bool
+
 func init() {
 
+  // command line options
   var confFile string
   flag.StringVar(&confFile, "config", "/etc/toris/toris.conf", "The configuration file")
+
+  flag.BoolVar(&ShowModules, "module-list", false, "Print the list of loaded modules and exits")
+
   flag.Parse()
 
   // read the configuration file

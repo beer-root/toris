@@ -4,6 +4,7 @@ package main
 import (
   "fmt"
   "log"
+  "os"
   "./toris"
   "github.com/stretchrcom/goweb/goweb"
 )
@@ -11,11 +12,15 @@ import (
 
 func main() {
 
+  if toris.ShowModules {
+    log.Println("Installed modules", toris.Context.ModuleList())
+    os.Exit(0)
+  }
+
   c := toris.Context.ConfigFile
 
   serverPort, _ := c.GetInt("server", "port")
 
-  log.Println("Modules", toris.Context.ModuleList())
   // Add default result formatter (JSON)
   goweb.ConfigureDefaultFormatters()
 
