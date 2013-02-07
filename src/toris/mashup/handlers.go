@@ -1,31 +1,30 @@
-package toris
+package mashup
 
 import (
-  . "../model"
   "net/http"
-  "code.google.com/p/couch-go"
-  "code.google.com/p/goweb/goweb"
+  "github.com/stretchrcom/goweb/goweb"
 )
-
 
 // RESTful API Controller type for Otter
 type OtterAPIController struct {
-  Db couch.Database
 }
 
 // Handle POST requests
 func (cr *OtterAPIController) Create(cx *goweb.Context) {
   otter := NewOtter()
-  cr.Db.Insert(otter)
+  // TODO rewrite using a tohva stored in the session
+  // cr.Db.Insert(otter)
   cx.RespondWithData(otter)
 }
 
 // Handle DELETE requests
 func (cr *OtterAPIController) Delete(id string, cx *goweb.Context) {
-  var otter Otter
-  currentRev, err := cr.Db.Retrieve(id, &otter)
+  //var otter Otter
+  // TODO rewrite using a tohva stored in the session
+  // currentRev, err := cr.Db.Retrieve(id, &otter)
+  var err error = nil
   if err != nil {
-    cr.Db.Delete(id, currentRev)
+  //  cr.Db.Delete(id, currentRev)
     cx.RespondWithOK()
   } else {
     cx.RespondWithNotFound()
@@ -38,7 +37,9 @@ func (cr *OtterAPIController) DeleteMany(cx *goweb.Context) {
 // Handle GET requests
 func (cr *OtterAPIController) Read(id string, cx *goweb.Context) {
   var otter Otter
-  _, err := cr.Db.Retrieve(id, &otter)
+  // TODO rewrite using a tohva stored in the session
+  var err error = nil
+  //_, err := cr.Db.Retrieve(id, &otter)
   if err != nil {
     cx.RespondWithData(otter)
   } else {

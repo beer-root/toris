@@ -1,12 +1,14 @@
-package toris
+package mashup
 
 import (
+  "github.com/beer-root/tohva"
   "time"
 )
 
 
 // An Otter represents the image and its associated meta-data
 type Otter struct {
+  tohva.WithIdRev
   Path string // path to the otter file
   Tags []string // the tags of this otter
   Date time.Time // when published
