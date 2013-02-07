@@ -72,7 +72,7 @@ func (t Toris) Register(module Module) {
 
 // return the list of installed module names along with their status
 func (t Toris) ModuleList() map[string]Status {
-  var result map[string]Status
+  result := map[string]Status{}
   for k, m := range(t.modules) {
     result[k] = m.status
   }
